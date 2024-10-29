@@ -28,7 +28,7 @@ The service will be available at `http://localhost:8080`
 src/
 ├── main/
 │   ├── java/
-│   │   └── com/yourorg/userservice/
+│   │   └── com/client/
 │   │       ├── controller/             # REST controllers
 │   │       ├── model/                  # Domain models
 │   │       ├── service/                # Business logic
