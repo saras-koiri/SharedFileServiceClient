@@ -21,6 +21,23 @@ A Spring Boot microservice that calls a Shared File Upload Service
 
 The service will be available at `http://localhost:8080`
 
+Example curl commands to test the API:
+
+#### Get file attributes:
+```
+curl --header "Content-Type: application/json" \
+--request GET \
+http://localhost:8080/api/file/1234/attributes
+```
+
+#### Save file attributes:
+```
+curl --header "Content-Type: application/json" \
+--request POST \
+--data '{"name":"name","description":"description","fileType":"type","customAttributes":{"customAttribute2":"customAttribute2Value","customAttribute1":"customAttribute1Value","customAttribute3":"customAttribute3Value"}}'  \
+http://localhost:8080/api/file/1234/attributes
+```
+
 ## Development
 
 ### Project Structure

@@ -167,7 +167,7 @@ public class FileUploaderControllerTest {
                                 .withHeaders(
                                         new Header("Content-Type", "application/json; charset=utf-8"),
                                         new Header("Cache-Control", "public, max-age=86400"))
-                                .withBody("")
+                                .withBody(expectedJson)
                                 .withDelay(TimeUnit.SECONDS,1)
                 );
     }
