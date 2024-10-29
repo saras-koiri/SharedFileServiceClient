@@ -45,7 +45,7 @@ http://localhost:8080/api/file/1234/attributes
 src/
 ├── main/
 │   ├── java/
-│   │   └── com/yourorg/userservice/
+│   │   └── com/client/
 │   │       ├── controller/             # REST controllers
 │   │       ├── model/                  # Domain models
 │   │       ├── service/                # Business logic
